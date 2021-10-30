@@ -1,0 +1,18 @@
+.teachers{
+    text-align: center;
+}
+
+.teachers h1{
+    color: #423f8d;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.details{
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 35px;
+    color: #423f8d;
+    font-weight: 500;
+}

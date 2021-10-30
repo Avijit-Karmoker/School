@@ -1,0 +1,52 @@
+.classes {
+  background-color: #fff2f9;
+  padding-bottom: 100px;
+}
+.class-about {
+  padding-left: 280px;
+  padding-right: 280px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: #ED078B;
+  padding: 15px 40px;
+  border: 2px solid #ED078B;
+  border-radius: 50px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+
+  --background-color: none;
+  --accent-color: #ED078B;
+}
+
+.btn.btn-background-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--accent-color);
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.btn.btn-background-slide:hover::before {
+  transform: scaleY(1);
+}
+
+.btn.btn-background-slide {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.btn.btn-background-slide:hover {
+  color: white;
+}

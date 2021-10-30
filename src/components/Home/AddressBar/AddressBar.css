@@ -1,0 +1,16 @@
+p{
+    margin: 0;
+}
+
+.address-bar {
+    line-height: 50px;
+    background-color: #ED078B;
+    color: #fff;
+    font-size: 18px;
+}
+
+.address-bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}

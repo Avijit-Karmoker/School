@@ -1,0 +1,73 @@
+.timer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.days{
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: #FFFAE7;
+    border-radius: 15px;
+    color: #423F8D;
+}
+
+.days p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.days p:nth-child(2) {
+    font-weight: 350;
+}
+
+.hours{
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: #FFFAE7;
+    border-radius: 15px;
+    color: #423F8D;
+}
+
+.hours p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hours p:nth-child(2) {
+    font-weight: 350;
+}
+
+.minutes{
+    padding: 5px 20px;
+    margin-right: 20px;
+    background-color: #FFFAE7;
+    border-radius: 15px;
+    color: #423F8D;
+}
+
+.minutes p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.minutes p:nth-child(2) {
+    font-weight: 350;
+}
+
+.seconds{
+    padding: 5px 15px;
+    background-color: #FFFAE7;
+    border-radius: 15px;
+    color: #423F8D;
+}
+
+.seconds p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.seconds p:nth-child(2) {
+    font-weight: 350;
+}

@@ -1,0 +1,43 @@
+.welcome{
+    margin-top: 8%;
+}
+
+.facilities{
+    margin-top: 4%;
+}
+
+.facility img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.facility{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.welcome-header{
+    margin-bottom: 2%;
+    color: #ED078B;
+    font-weight: 700;
+}
+
+.welcome-text{
+    padding: 0 5%;
+    margin-bottom: 5%;
+    color: #543F91;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.drawing{
+    padding-left: 70px;
+}
+
+.drawing img {
+    width: 100%;
+    border-radius: 50px;
+}
