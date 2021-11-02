@@ -11,7 +11,12 @@ import image4 from "../../../images/teacher-4.jpg";
 import image5 from "../../../images/teacher-5.jpg";
 import image6 from "../../../images/teacher-6.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -59,13 +64,29 @@ export default class SimpleSlider extends Component {
               <div className="overlay">
                 <img src={image1} alt="Laura Bush" />
                 <div className="icon">
-                    <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#" target="_blank">
+                        <FontAwesomeIcon icon={faFacebook} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <h5>Laura Bush</h5>
               <p>Chemistry Teacher</p>
@@ -78,10 +99,26 @@ export default class SimpleSlider extends Component {
                   <img src={image2} alt="Laura Bush" />
                   <div className="icon">
                     <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                      <li>
+                        <a href="#">
+                          <FontAwesomeIcon icon={faFacebook} />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <FontAwesomeIcon icon={faInstagram} />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <FontAwesomeIcon icon={faTwitter} />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -95,13 +132,29 @@ export default class SimpleSlider extends Component {
               <div className="overlay">
                 <img src={image3} alt="Laura Bush" />
                 <div className="icon">
-                    <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faFacebook} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <h5>Deanna Wright</h5>
               <p>Accounting Teacher</p>
@@ -112,13 +165,29 @@ export default class SimpleSlider extends Component {
               <div className="overlay">
                 <img src={image4} alt="Laura Bush" />
                 <div className="icon">
-                    <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faFacebook} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <h5>Maxine Waters</h5>
               <p>English Teacher</p>
@@ -129,13 +198,29 @@ export default class SimpleSlider extends Component {
               <div className="overlay">
                 <img src={image5} alt="Laura Bush" />
                 <div className="icon">
-                    <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faFacebook} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <h5>Roberta Bondar Bush</h5>
               <p>Math Teacher</p>
@@ -146,13 +231,29 @@ export default class SimpleSlider extends Component {
               <div className="overlay">
                 <img src={image6} alt="Laura Bush" />
                 <div className="icon">
-                    <ul>
-                      <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faInstagram} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faTwitter} /></a></li>
-                      <li><a href=""><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faFacebook} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <h5>J.K. Rowling</h5>
               <p>Physics Teacher</p>

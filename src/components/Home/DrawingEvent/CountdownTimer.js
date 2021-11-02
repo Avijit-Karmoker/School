@@ -44,19 +44,19 @@ const CountdownTimer = () => {
   return (
     <section className="timer">
       <div className="days">
-        <p>{timerDays}</p>
+        <p className="mb-0">{timerDays}</p>
         <p>Days</p>
       </div>
       <div className="hours">
-        <p>{timerHours}</p>
+        <p className="mb-0">{timerHours}</p>
         <p>Hours</p>
       </div>
       <div className="minutes">
-        <p>{timerMinutes}</p>
+        <p className="mb-0">{timerMinutes}</p>
         <p>Minutes</p>
       </div>
       <div className="seconds">
-        <p>{timerSeconds}</p>
+        <p className="mb-0">{timerSeconds}</p>
         <p>Seconds</p>
       </div>
     </section>

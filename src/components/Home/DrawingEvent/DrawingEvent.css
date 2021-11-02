@@ -22,12 +22,14 @@
 .date{
     color: #ED079A;
     font-weight: 700;
+    font-family: 'Fredoka One', cursive;
 }
 
 .event-name{
     color: #423F8D;
     font-weight: 700;
     padding-bottom: 10px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .event-description{
@@ -36,6 +38,7 @@
     line-height: 35px;
     padding-bottom: 30px;
     font-weight: 450;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .view-event{
@@ -48,6 +51,7 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 40px;
+    font-family: 'Concert One', cursive;
 }
 
 .view-event::before {  

@@ -2,6 +2,15 @@
   background-color: #fff2f9;
   padding-bottom: 100px;
 }
+
+.classes h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+.classes p{
+  font-family: 'DM Sans', sans-serif;
+}
+
 .class-about {
   padding-left: 280px;
   padding-right: 280px;
@@ -49,4 +58,8 @@
 
 .btn.btn-background-slide:hover {
   color: white;
+}
+
+.btn{
+  font-family: 'Fredoka One', cursive;
 }

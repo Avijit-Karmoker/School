@@ -1,69 +1,85 @@
-ul{
-    display: none !important;
+.slider ul {
+  display: none !important;
 }
 
-.slider{
-    margin-top: 100px;
+.slider {
+  margin-top: 100px;
 }
 
-.slide{
-    border-radius: 25px;
+.slide {
+  border-radius: 25px;
 }
 
-.slide-top1{
-    width: 100%;
-    height: 250px;
-    background-image: url("../../../images/child-playroom.jpg");
-    background-size: cover;
-    border-radius: 25px 25px 0 0;
+.slide-top1 {
+  width: 100%;
+  height: 250px;
+  background-image: url("../../../images/child-playroom.jpg");
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
 }
 
-.admission-button{
-    border: none;
-    margin: 30px 0 0 20px;
-    padding: 5px 20px;
-    border-radius: 50px;
-    color: #fff;
-    background-color: #FF377B;
+.slide-top1 {
+  font-family: "Concert One", cursive;
 }
 
-.div-footer{
-    padding: 0 20px 40px;
+.admission-button {
+  border: none;
+  margin: 30px 0 0 20px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #ff377b;
 }
 
-.slide-top2{
-    width: 100%;
-    height: 250px;
-    background-image: url("../../../images/drawing.jpg");
-    background-size: cover;
-    border-radius: 25px 25px 0 0;
+.div-footer {
+  padding: 0 20px 40px;
 }
 
-.slide-top3{
-    width: 100%;
-    height: 250px;
-    background-image: url("../../../images/kids-playroom.jpg");
-    background-size: cover;
-    border-radius: 25px 25px 0 0;
+.slide-top2 {
+  width: 100%;
+  height: 250px;
+  background-image: url("../../../images/drawing.jpg");
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
 }
 
-.slide-top4{
-    width: 100%;
-    height: 250px;
-    background-image: url("../../../images/teacher-playing-with-the-kids.jpg");
-    background-size: cover;
-    border-radius: 25px 25px 0 0;
+.slide-top2 button {
+  font-family: "Concert One", cursive;
 }
 
-.slide-title{
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #423F8D;
+.slide-top3 {
+  width: 100%;
+  height: 250px;
+  background-image: url("../../../images/kids-playroom.jpg");
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
 }
 
-.slide-details{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 70px;
+.slide-top3 button {
+  font-family: "Concert One", cursive;
+}
+
+.slide-top4 {
+  width: 100%;
+  height: 250px;
+  background-image: url("../../../images/teacher-playing-with-the-kids.jpg");
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
+}
+
+.slide-top3 button {
+  font-family: "Concert One", cursive;
+}
+
+.slide-title {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #423f8d;
+}
+
+.slide-details {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 70px;
 }

@@ -20,6 +20,7 @@
     font-size: 90px;
     color: #423F8D;
     font-weight: 700;
+    font-family: 'Fredoka One', cursive;
 }
 
 .header-text h2 {
@@ -28,6 +29,7 @@
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .explore{
@@ -39,6 +41,7 @@
     font-weight: 700;
     position: relative;
     overflow: hidden;
+    font-family: 'Concert One', cursive;
 }
 
 .explore::before {  

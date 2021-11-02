@@ -1,22 +1,43 @@
-.logo{
-    font-weight: 900;
-    font-size: 35px;
+.nav li {
+  padding: 0 10px;
 }
 
-a{
-    font-weight: 700;
+
+.nav a {
+  color: #423f8d !important;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 30px 0;
+  font-family: 'Concert One', cursive;
 }
 
-.enroll{
-    margin-left: 10px;
-    border: none;
-    background-color: #12D9DF;
-    padding: 15px 35px;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: 700;
+.nav li a:hover {
+  color: #ed078b !important;
 }
 
-.items{
-    margin-top: 9px;
+.nav ul>li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    bottom: 0px;
+    right: 5px;
+    left: -5px;
+    height: 3px;
+    z-index: 1;
+    background: #ED078B;
+    transition: .4s;
+}
+
+.enroll {
+  border: none;
+  background: #12d9df;
+  padding: 13px 40px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+}
+
+.enroll:hover{
+  color: #ecf0f1;
 }

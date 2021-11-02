@@ -23,6 +23,7 @@
     margin-bottom: 2%;
     color: #ED078B;
     font-weight: 700;
+    font-family: 'Fredoka One', cursive;
 }
 
 .welcome-text{
@@ -31,6 +32,7 @@
     color: #543F91;
     font-weight: 700;
     font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .drawing{
@@ -40,4 +42,12 @@
 .drawing img {
     width: 100%;
     border-radius: 50px;
+}
+
+.facilities h3{
+    font-family: 'Concert One', cursive;
+}
+
+.facilities p{
+    font-family: 'DM Sans', sans-serif;
 }
