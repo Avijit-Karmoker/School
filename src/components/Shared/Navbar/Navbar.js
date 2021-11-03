@@ -24,33 +24,33 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse nav" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" href="#">
+              <li class="nav-item line">
+                <Link class="nav-link active home" aria-current="page" href="#">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#">
+              <li class="nav-item line">
+                <Link class="nav-link class" href="#">
                   Class
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#">
+              <li class="nav-item line">
+                <Link class="nav-link about" href="#">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#">
+              <li class="nav-item line">
+                <Link class="nav-link blog" href="#">
                   Blog
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" href="#">
+              <li class="nav-item line">
+                <Link class="nav-link content" href="#">
                   Content
                 </Link>
               </li>
               <li class="nav-item pe-0 ps-3">
-                <a href="#" alt=""><button  className="enroll">Enroll Now</button></a>
+                <Link href="#" alt=""><button  className="enroll">Enroll Now</button></Link>
               </li>
             </ul>
           </div>

@@ -36,5 +36,35 @@
 
 .teacher:hover img{
     opacity: .5;
-    background-color: #E17074;
+    /* background-color: #E17074; */
+}
+
+.icon{
+    margin-top: -24px;
+    transition: .4s ease;
+}
+
+.icon ul{
+    display: flex !important;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.icon li{
+    list-style: none;
+}
+
+.icon a{
+    padding: 0 20px;
+    color: #fff;
+}
+
+.icon a:hover{
+    color: #12D9DF;
+    transition: .4s ease;
+}
+
+.teacher:hover .icon{
+    color: #fff;
+    transform: translateY(-150%);
 }

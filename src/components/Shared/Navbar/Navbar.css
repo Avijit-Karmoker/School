@@ -1,4 +1,4 @@
-.nav li {
+.nav .line {
   padding: 0 10px;
 }
 
@@ -7,25 +7,43 @@
   color: #423f8d !important;
   font-weight: bold;
   font-size: 17px;
-  padding: 30px 0;
   font-family: 'Concert One', cursive;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.nav li a:hover {
+.home{
+  padding: 30px 0;
+}
+
+.about{
+  padding: 30px 0;
+}
+
+.class{
+  padding: 30px 0;
+}
+
+.blog{
+  padding: 30px 0;
+}
+
+.content{
+  padding: 30px 0;
+}
+
+.nav .line a:hover {
   color: #ed078b !important;
 }
 
-.nav ul>li a::after{
-    content: "";
-    position: absolute;
+.nav .line::after{
+    content: '';
+    display: block;
     width: 0;
-    bottom: 0px;
-    right: 5px;
-    left: -5px;
     height: 3px;
-    z-index: 1;
-    background: #ED078B;
-    transition: .4s;
+    background: #ed078b;
+    transition: width .3s;
+
 }
 
 .enroll {
@@ -36,8 +54,15 @@
   color: #fff;
   font-weight: bold;
   font-family: 'Concert One', cursive;
+  transition: .3s;
 }
 
 .enroll:hover{
   color: #ecf0f1;
+}
+
+
+.nav .line:hover::after {
+  width: 100%;
+  /* transition: width .3s; */
 }
