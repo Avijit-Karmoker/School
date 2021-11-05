@@ -25,7 +25,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse nav" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center">
               <li class="nav-item line">
-                <Link class="nav-link active home" aria-current="page" href="#">
+                <Link class="nav-link active home" aria-current="page" href="/">
                   Home
                 </Link>
               </li>

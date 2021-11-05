@@ -8,12 +8,12 @@ import "./Slider.css";
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 1000,
+      speed: 300,
       autoplaySpeed: 4000,
       cssEase: "linear",
       responsive: [

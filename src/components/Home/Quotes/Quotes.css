@@ -1,0 +1,62 @@
+.quotes{
+    background-color: #FFF2F9;
+    padding-bottom: 100px;
+}
+
+.quote{
+    /* height: 400px; */
+    text-align: center;
+}
+
+.quote img{
+    width: 100px;
+    padding-bottom: 50px;
+}
+
+ /* button style*/
+.previous {
+    background-color: #3498db;
+    border-radius: 50px;
+}
+
+.next {
+    background-color: #3498db;
+    border-radius: 50px;
+}
+
+ /* button-details end */
+
+.quote-text {
+    line-height: 1.5;
+    padding: 0 170px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: #423F8D;
+}
+
+.person-name{
+    font-weight: 700;
+    font-family: "Concert One", cursive;
+    font-size: 20px;
+    color: #ED078B;
+    margin-bottom: 5px;
+}
+
+.person {
+    color: #57667E;
+}
+
+.person img {
+    width: 80px;
+    padding-bottom: 0;
+}
+
+.person-info{
+    margin-left: 25px;
+    text-align: left;
+}
+
+.person-role {
+    font-family: "DM Sans",sans-serif;
+    font-size: 17px;
+}
