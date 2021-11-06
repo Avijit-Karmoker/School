@@ -1,0 +1,79 @@
+.footerMain {
+  background-color: #4255a4;
+  padding: 100px 0;
+}
+
+.footerMain img {
+  padding-bottom: 25px;
+}
+
+.footerText {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  padding: 0 57px 40px 0;
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.icons a {
+  font-size: 18px;
+  padding: 12px 15px;
+  color: #fff;
+  background-color: #485aad;
+  border-radius: 50px;
+  margin-right: 25px;
+  transition: 0.4s;
+}
+
+.lastIcon {
+  margin-right: 0 !important;
+  padding-left: 17px !important;
+  padding-right: 17px !important;
+}
+
+.icons a:hover {
+  background-color: #ed078b;
+}
+
+.quickLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.quickLinks a:hover {
+  text-decoration: underline;
+}
+
+.quickLinks h5 {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+  padding-bottom: 25px;
+}
+
+.aboutUs h5 {
+  font-family: "Fredoka One", cursive;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.aboutUs a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.aboutUs a:hover {
+  text-decoration: underline;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}

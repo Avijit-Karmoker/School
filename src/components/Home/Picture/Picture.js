@@ -7,6 +7,8 @@ import kids4 from "../../../images/kids-4.jpg";
 import kids5 from "../../../images/kids-5.jpg";
 import kids6 from "../../../images/kids-6.jpg";
 import "./Picture.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default class Picture extends Component {
   render() {
@@ -49,29 +51,53 @@ export default class Picture extends Component {
     return (
       <div className="picture-slider">
         <Slider {...settings}>
-          <div>
+          <div className="overlay">
             <img src={kids1} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-          <div>
+          <div className="overlay">
             <img src={kids2} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-          <div>
+          <div className="overlay">
             <img src={kids3} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-          <div>
+          <div className="overlay">
             <img src={kids4} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-          <div>
+          <div className="overlay">
             <img src={kids5} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
-          <div>
+          <div className="overlay">
             <img src={kids6} alt="" />
-            <div></div>
+            <div className="icon">
+              <a href="#">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </div>
           </div>
         </Slider>
       </div>
